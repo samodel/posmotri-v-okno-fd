@@ -55,6 +55,8 @@ ol {
 }
 
 .result__video {
+  object-fit: cover;
+  object-position: center;
   min-width:100%;
   min-height: 100%;
 }
@@ -289,7 +291,8 @@ ol {
 
 .content__video-card-thumbnail {
   width: 194px;
-  object-position: right;
+  object-fit: cover;
+  object-position: center;
 }
 
 
